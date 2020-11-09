@@ -31,7 +31,7 @@ class Car extends Vehicle
         } catch (Exception $e) {
             echo $e->getMessage();
         } finally {
-            echo '<br>' ."Ma voiture roule comme un gros donut";
+            echo '<br>' ."Ma voiture roule comme un donut";
         }
     }
     public function setParkBrake($hasParkBrake): bool
