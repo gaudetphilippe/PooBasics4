@@ -30,6 +30,7 @@ class Car extends Vehicle
             }
         } catch (Exception $e) {
             echo $e->getMessage();
+            $this->setParkBrake(False);
         } finally {
             echo '<br>' ."Ma voiture roule comme un donut";
         }
